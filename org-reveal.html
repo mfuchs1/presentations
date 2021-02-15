@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Präsentation</title>
+<meta name="author" content="(Matthias Fuchs)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/matthias/Downloads/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/matthias/Downloads/reveal.js/dist/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/matthias/Downloads/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-02-15 Mo 16:19</p>
+</section>
+
+<section>
+<section id="slide-orge6e79a4">
+<h2 id="orge6e79a4">Erste Folie</h2>
+<p>
+Darunter ein Text.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org6d783a7">
+<h2 id="org6d783a7">Zweite Seite</h2>
+<p>
+und der Text
+</p>
+
+<aside class="notes">
+<p>
+Meine Notizen als Vortragender.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-orge388bc9">
+<h3 id="orge388bc9">und hier eine Unterseite</h3>
+<p>
+mit dem Text
+</p>
+
+<aside class="notes">
+<p>
+Meine Notizen als Vortragender.
+</p>
+
+</aside>
+
+</section>
+<section id="slide-org33ee38b">
+<h3 id="org33ee38b">eine zweite Unterseite</h3>
+<p>
+und dem Text
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org5f9e950">
+<h2 id="org5f9e950">dritte Seite</h2>
+<p>
+und der Text
+</p>
+
+<aside class="notes">
+<p>
+Meine Notizen als Vortragender.
+</p>
+
+</aside>
+
+</section>
+</section>
+<section>
+<section id="slide-org0a5a96c" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
+<h2 id="org0a5a96c"></h2>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/matthias/Downloads/reveal.js/dist/reveal.js"></script>
+<script src="file:///home/matthias/Downloads/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="file:///home/matthias/Downloads/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="file:///home/matthias/Downloads/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown,RevealZoom,RevealNotes],
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+]
+});
+</script>
+</body>
+</html>

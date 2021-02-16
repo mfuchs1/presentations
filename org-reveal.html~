@@ -26,21 +26,21 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-02-16 Di 08:08</p>
+<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-02-16 Di 08:13</p>
 </section>
 
 <section>
-<section id="slide-org303702f">
-<h2 id="org303702f">Erste Folie</h2>
+<section id="slide-org23030a6">
+<h2 id="org23030a6">Erste Folie</h2>
 <p>
 Darunter ein Text.
 </p>
 
-<ul>
-<li data-fragment-index="4" class="fragment grow">I will grow.</li>
-<li data-fragment-index="3" class="fragment shrink">I will shrink.</li>
-<li data-fragment-index="2" class="fragment roll-in">I rolled in.</li>
-<li data-fragment-index="1" class="fragment fade-out">I will fade out.</li>
+<ul class="fragment roll-in">
+<li>I will grow.</li>
+<li>I will shrink.</li>
+<li>I rolled in.</li>
+<li>I will fade out.</li>
 <li>I don't fragment.</li>
 
 </ul>
@@ -48,8 +48,8 @@ Darunter ein Text.
 </section>
 </section>
 <section>
-<section id="slide-org74078b1">
-<h2 id="org74078b1">Zweite Seite</h2>
+<section id="slide-org6302fc0">
+<h2 id="org6302fc0">Zweite Seite</h2>
 <p>
 und der Text
 </p>
@@ -62,8 +62,8 @@ Meine Notizen als Vortragender.
 </aside>
 
 </section>
-<section id="slide-org07206e3">
-<h3 id="org07206e3">und hier eine Unterseite</h3>
+<section id="slide-org3dd8173">
+<h3 id="org3dd8173">und hier eine Unterseite</h3>
 <p>
 mit dem Text
 </p>
@@ -76,8 +76,8 @@ Meine Notizen als Vortragender.
 </aside>
 
 </section>
-<section id="slide-org45f2e34">
-<h3 id="org45f2e34">eine zweite Unterseite</h3>
+<section id="slide-org332857a">
+<h3 id="org332857a">eine zweite Unterseite</h3>
 <p>
 und dem Text
 </p>
@@ -85,8 +85,8 @@ und dem Text
 </section>
 </section>
 <section>
-<section id="slide-orgfcfe0d2">
-<h2 id="orgfcfe0d2">dritte Seite</h2>
+<section id="slide-orgad1304a">
+<h2 id="orgad1304a">dritte Seite</h2>
 <p>
 und der Text
 </p>
@@ -101,8 +101,8 @@ Meine Notizen als Vortragender.
 </section>
 </section>
 <section>
-<section id="slide-org9f51d34" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
-<h2 id="org9f51d34"></h2>
+<section id="slide-org885649d" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
+<h2 id="org885649d"></h2>
 </section>
 </section>
 </div>

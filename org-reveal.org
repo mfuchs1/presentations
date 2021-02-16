@@ -11,7 +11,7 @@
 * Erste Folie
 Darunter ein Text.
 
- #+ATTR_REVEAL: :frag (roll-in) :frag_idx (5 4 3 2 1)
+ #+ATTR_REVEAL: :frag (appear) 
    * I will grow.
    * I will shrink.
    * I rolled in.

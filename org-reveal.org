@@ -11,6 +11,10 @@
 * Erste Folie
 Darunter ein Text.
 
+ - ein Punkt
+ - ein zweiter Punkt
+ - und ein dritter.
+
 * Zweite Seite
 und der Text
 

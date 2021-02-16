@@ -26,28 +26,21 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-02-16 Di 08:00</p>
+<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-02-16 Di 00:10</p>
 </section>
 
 <section>
-<section id="slide-org68981f2">
-<h2 id="org68981f2">Erste Folie</h2>
+<section id="slide-org0ce5ead">
+<h2 id="org0ce5ead">Erste Folie</h2>
 <p>
 Darunter ein Text.
 </p>
 
-<ul>
-<li>ein Punkt</li>
-<li>ein zweiter Punkt</li>
-<li>und ein dritter.</li>
-
-</ul>
-
 </section>
 </section>
 <section>
-<section id="slide-org2c78c22">
-<h2 id="org2c78c22">Zweite Seite</h2>
+<section id="slide-org7924e19">
+<h2 id="org7924e19">Zweite Seite</h2>
 <p>
 und der Text
 </p>
@@ -60,8 +53,8 @@ Meine Notizen als Vortragender.
 </aside>
 
 </section>
-<section id="slide-org658150d">
-<h3 id="org658150d">und hier eine Unterseite</h3>
+<section id="slide-org74e113f">
+<h3 id="org74e113f">und hier eine Unterseite</h3>
 <p>
 mit dem Text
 </p>
@@ -74,8 +67,8 @@ Meine Notizen als Vortragender.
 </aside>
 
 </section>
-<section id="slide-orgd3870db">
-<h3 id="orgd3870db">eine zweite Unterseite</h3>
+<section id="slide-org9afbdec">
+<h3 id="org9afbdec">eine zweite Unterseite</h3>
 <p>
 und dem Text
 </p>
@@ -83,8 +76,8 @@ und dem Text
 </section>
 </section>
 <section>
-<section id="slide-org3127fd9">
-<h2 id="org3127fd9">dritte Seite</h2>
+<section id="slide-orge6f9704">
+<h2 id="orge6f9704">dritte Seite</h2>
 <p>
 und der Text
 </p>
@@ -99,8 +92,8 @@ Meine Notizen als Vortragender.
 </section>
 </section>
 <section>
-<section id="slide-org4e1889e" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
-<h2 id="org4e1889e"></h2>
+<section id="slide-org2c6e757" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
+<h2 id="org2c6e757"></h2>
 </section>
 </section>
 </div>

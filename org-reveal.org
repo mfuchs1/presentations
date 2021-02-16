@@ -19,7 +19,9 @@ Darunter ein Text.
    * I don't fragment.
 
 * Zweite Seite
-und der Text
+Welches Brauchtum gibt es? Was kennt ihr? Welche Bräuche werden bei euch zu Hause gepflegt? Was bedeuten sie? Welche Bräuche hättet ihr gerne? 
+
+Symbole des Advents: Adventkranz, Kerze, Weihrauch, Farbe: violett, ...
 
 #+BEGIN_NOTES
 Meine Notizen als Vortragender.

@@ -11,9 +11,12 @@
 * Erste Folie
 Darunter ein Text.
 
- - ein Punkt
- - ein zweiter Punkt
- - und ein dritter.
+ #+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -)
+   * I will grow.
+   * I will shrink.
+   * I rolled in.
+   * I will fade out.
+   * I don't fragment.
 
 * Zweite Seite
 und der Text

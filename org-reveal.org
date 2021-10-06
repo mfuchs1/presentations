@@ -3,6 +3,7 @@
 #+STARTUP: lognotedone
 #+STARTUP: hidestars
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil toc:nil
 #+TITLE: Präsentation
 #+AUTHOR: Matthias Fuchs
@@ -29,7 +30,6 @@ Meine Notizen als Vortragender.
 
 ** und hier eine Unterseite
 mit dem Text
-
 #+BEGIN_NOTES
 Meine Notizen als Vortragender.
 #+END_NOTES
@@ -39,7 +39,6 @@ und dem Text
 
 * dritte Seite
 und der Text
-
 #+BEGIN_NOTES
 Meine Notizen als Vortragender.
 #+END_NOTES

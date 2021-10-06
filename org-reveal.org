@@ -33,6 +33,10 @@ Welches Brauchtum gibt es? Was kennt ihr? Welche Bräuche werden bei euch zu Hau
 
 Symbole des Advents: Adventkranz, Kerze, Weihrauch, Farbe: violett, ...
 
+Hier schreibe ich noch mehr Text. Irgendwann wird der Text zu lang.
+
+#+REVEAL: split:t
+Deshalb teile ich ab hier den Text ... hoffentlich.
 
 
 ** und hier eine Unterseite

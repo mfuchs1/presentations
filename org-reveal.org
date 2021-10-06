@@ -2,9 +2,8 @@
 #+STARTUP: logdone
 #+STARTUP: lognotedone
 #+STARTUP: hidestars
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_ROOT: file:///home/matthias/Downloads/reveal.js
 #+REVEAL_INIT_OPTIONS: transition: 'concave'
-#+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil toc:nil
 #+TITLE: Präsentation
 #+AUTHOR: Matthias Fuchs
@@ -13,7 +12,7 @@
 * Erste Folie
 Darunter ein Text.
 
- #+ATTR_REVEAL: :frag (roll-in) 
+ #+ATTR_REVEAL: :frag (appear) 
    - I will grow.
    - I will shrink.
    - I rolled in.
@@ -21,28 +20,34 @@ Darunter ein Text.
    - I don't fragment.
 
 * Zweite Seite
+#+BEGIN_NOTES
+Meine Notizen als Vortragender.
+#+END_NOTES
+
 Welches Brauchtum gibt es? Was kennt ihr? Welche Bräuche werden bei euch zu Hause gepflegt? Was bedeuten sie? Welche Bräuche hättet ihr gerne? 
 
 Symbole des Advents: Adventkranz, Kerze, Weihrauch, Farbe: violett, ...
 
+
+
+** und hier eine Unterseite
 #+BEGIN_NOTES
 Meine Notizen als Vortragender.
 #+END_NOTES
 
-** und hier eine Unterseite
 mit dem Text
-#+BEGIN_NOTES
-Meine Notizen als Vortragender.
-#+END_NOTES
+
 
 ** eine zweite Unterseite
 und dem Text
 
 * dritte Seite
-und der Text
 #+BEGIN_NOTES
 Meine Notizen als Vortragender.
 #+END_NOTES
+
+und der Text
+
 
 * 
 :PROPERTIES:

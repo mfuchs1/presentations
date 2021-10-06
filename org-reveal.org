@@ -3,6 +3,7 @@
 #+STARTUP: lognotedone
 #+STARTUP: hidestars
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_INIT_OPTIONS: transition: 'cube'
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil toc:nil
 #+TITLE: Präsentation

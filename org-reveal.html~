@@ -11,27 +11,17 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/lib/css/zenburn.css"/>
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
-</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/lib/css/zenburn.css"/></head>
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-10-06 Mi 14:46</p>
+<section id="sec-title-slide"><h1 class="title">Präsentation</h1><h2 class="author">Matthias Fuchs</h2><p class="date">Created: 2021-10-06 Mi 15:12</p>
 </section>
 
+
 <section>
-<section id="slide-org3c508f6">
-<h2 id="org3c508f6">Erste Folie</h2>
+<section id="slide-orgd7d3639">
+<h2 id="orgd7d3639">Erste Folie</h2>
 <p>
 Darunter ein Text.
 </p>
@@ -48,8 +38,8 @@ Darunter ein Text.
 </section>
 </section>
 <section>
-<section id="slide-org3e96ef6">
-<h2 id="org3e96ef6">Zweite Seite</h2>
+<section id="slide-orga054ac8">
+<h2 id="orga054ac8">Zweite Seite</h2>
 <aside class="notes">
 <p>
 Meine Notizen als Vortragender.
@@ -68,8 +58,8 @@ Symbole des Advents: Adventkranz, Kerze, Weihrauch, Farbe: violett, &#x2026;
 
 
 </section>
-<section id="slide-orgc81c93e">
-<h3 id="orgc81c93e">und hier eine Unterseite</h3>
+<section id="slide-org29b8aee">
+<h3 id="org29b8aee">und hier eine Unterseite</h3>
 <aside class="notes">
 <p>
 Meine Notizen als Vortragender.
@@ -83,8 +73,8 @@ mit dem Text
 
 
 </section>
-<section id="slide-orgb82a058">
-<h3 id="orgb82a058">eine zweite Unterseite</h3>
+<section id="slide-org9008470">
+<h3 id="org9008470">eine zweite Unterseite</h3>
 <p>
 und dem Text
 </p>
@@ -92,8 +82,8 @@ und dem Text
 </section>
 </section>
 <section>
-<section id="slide-org7e327aa">
-<h2 id="org7e327aa">dritte Seite</h2>
+<section id="slide-org9d78a8b">
+<h2 id="org9d78a8b">dritte Seite</h2>
 <aside class="notes">
 <p>
 Meine Notizen als Vortragender.
@@ -109,28 +99,25 @@ und der Text
 </section>
 </section>
 <section>
-<section id="slide-org3d68147" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
-<h2 id="org3d68147"></h2>
+<section id="slide-orgd432c51" data-background="images/felsengrab.jpg" data-background-size="640px" data-background-transition="slide">
+<h2 id="orgd432c51"></h2>
 </section>
 </section>
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
 
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-transition: 'concave',
-
-// Optional libraries used to extend on reveal.js
-dependencies: [
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
-
+plugins: [RevealMarkdown, RevealHighlight, RevealZoom, RevealNotes],
+transition: 'concave'
 });
 
 </script>

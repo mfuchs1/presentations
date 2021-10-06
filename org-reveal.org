@@ -1,10 +1,15 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_INIT_OPTIONS: transition: 'concave'
+#+OPTIONS: num:nil toc:nil
+:END:
+
 #+STARTUP: showall
 #+STARTUP: logdone
 #+STARTUP: lognotedone
 #+STARTUP: hidestars
-#+REVEAL_ROOT: file:///home/matthias/Downloads/reveal.js
-#+REVEAL_INIT_OPTIONS: transition: 'concave'
-#+OPTIONS: num:nil toc:nil
+
 #+TITLE: Präsentation
 #+AUTHOR: Matthias Fuchs
 #+EMAIL: matthiasfuchs01@gmail.com

@@ -12,11 +12,11 @@
 Darunter ein Text.
 
  #+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -) 
-   * I will grow.
-   * I will shrink.
-   * I rolled in.
-   * I will fade out.
-   * I don't fragment.
+   - I will grow.
+   - I will shrink.
+   - I rolled in.
+   - I will fade out.
+   - I don't fragment.
 
 * Zweite Seite
 Welches Brauchtum gibt es? Was kennt ihr? Welche Bräuche werden bei euch zu Hause gepflegt? Was bedeuten sie? Welche Bräuche hättet ihr gerne? 

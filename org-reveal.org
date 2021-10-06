@@ -3,7 +3,7 @@
 #+STARTUP: lognotedone
 #+STARTUP: hidestars
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
-#+REVEAL_INIT_OPTIONS: transition: 'cube'
+#+REVEAL_INIT_OPTIONS: transition: 'concave'
 #+REVEAL_PLUGINS: notes
 #+OPTIONS: num:nil toc:nil
 #+TITLE: Präsentation
@@ -13,7 +13,7 @@
 * Erste Folie
 Darunter ein Text.
 
- #+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -) 
+ #+ATTR_REVEAL: :frag (roll-in) 
    - I will grow.
    - I will shrink.
    - I rolled in.

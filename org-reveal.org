@@ -4,7 +4,7 @@
 #+REVEAL_INIT_OPTIONS: transition: 'concave'
 #+REVEAL_INIT_OPTIONS: width:1920, height:1080
 #+REVEAL_PLUGINS: (notes)
-#+REVEAL_EXTRA_CSS: local.css
+#+REVEAL_EXTRA_CSS: ./css/local.css
 #+OPTIONS: num:nil toc:nil
 :END:
 #+STARTUP: showall

@@ -2,9 +2,10 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+REVEAL_REVEAL_JS_VERSION: 4
 #+REVEAL_INIT_OPTIONS: transition: 'concave'
+#+REVEAL_INIT_OPTIONS: width:1920, height:1080
+#+REVEAL_PLUGINS: (notes)
 #+OPTIONS: num:nil toc:nil
 :END:
-
 #+STARTUP: showall
 #+STARTUP: logdone
 #+STARTUP: lognotedone
@@ -15,7 +16,7 @@
 #+EMAIL: matthiasfuchs01@gmail.com
 
 * Erste Folie
-Darunter ein Text.
+Darunter ein Text. Und hier schreibe ich weiter; 
 
  #+ATTR_REVEAL: :frag (appear) 
    - I will grow.
